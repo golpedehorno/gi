@@ -1,0 +1,91 @@
+body{
+   margin: 0;
+}
+.boton{
+    background-color: blueviolet;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    padding: 10px;
+    line-height: 50px;
+    position: fixed;
+    text-align: center;
+    text-transform: uppercase;
+}
+.grano{
+    top: 10px;
+    left: 0;
+}
+.leyenda{
+    bottom: 10px;
+    right: 0;
+}
+.contenedor{
+    width:700px ;
+    height: 700px;
+    background-color: aquamarine;
+   position: relative;
+   margin: auto;
+   margin-top: 10px;
+}
+
+.cajas{
+   position: absolute;
+  
+}
+.uno{
+    width:600px ;
+    height: 600px;
+    background-color: blue;
+    top: 50px;
+    left: 50px;
+}
+.dos{
+    width:450px;
+    height: 450px;
+    background-color: burlywood;
+    top:75px;
+    left:75px;
+}
+.tres{
+    width:300px ;
+    height: 300px;
+    background-color: cyan;
+    top:75px ;
+    left:75px ;
+}
+.cuatro{
+    width:150px ;
+    height: 150px;
+    background-color: darkorange;
+    top: 75px;
+    left:75px ;
+}
+.cinco{
+    width:60px ;
+    height: 60px;
+    background-color: deeppink;
+    top:45px ;
+    left:45px ;
+}
+.seis{
+    width:20px ;
+    height: 20px;
+    background-color: forestgreen;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.contenedor:hover{
+    background-image: url("ventana.jpg");
+}
+.cajas:hover{
+    background-image: url("ventana.jpg");
+}
+
+/*PAGINA INVITACION*/
+.imagenventana{
+
+}
